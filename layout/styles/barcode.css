@@ -1,0 +1,81 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f6f8;
+    color: #222;
+  }
+  
+  h2.heading {
+    font-size: 2.3rem;
+    color: #2c3e50;
+    border-bottom: 3px solid #3498db;
+    padding-bottom: 10px;
+    margin-bottom: 25px;
+  }
+  
+  .sectiontitle h6 {
+    font-size: 1.7rem;
+    color: #3498db;
+  }
+  
+  .gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 25px;
+    margin-top: 40px;
+    padding-bottom: 40px;
+  }
+  
+  .gallery-item {
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 6px 16px rgba(0,0,0,0.08);
+    transition: all 0.3s ease-in-out;
+    text-align: center;
+    overflow: hidden;
+  }
+  
+  .gallery-item:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 12px 24px rgba(0,0,0,0.1);
+  }
+  
+  .gallery-item img {
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #e0e0e0;
+  }
+  
+  .gallery-item p {
+    padding: 15px;
+    margin: 0;
+    font-size: 0.96rem;
+    background-color: #f9f9f9;
+    color: #333;
+  }
+  
+  ul {
+    margin-top: 30px;
+    margin-left: 20px;
+  }
+  
+  ul li {
+    margin-bottom: 10px;
+    list-style-type: square;
+  }
+  
+  .btn {
+    display: inline-block;
+    margin-top: 30px;
+    padding: 12px 25px;
+    background-color: #3498db;
+    color: #fff;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn:hover {
+    background-color: #2c80b4;
+  }
+  
